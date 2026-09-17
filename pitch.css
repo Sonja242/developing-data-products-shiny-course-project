@@ -1,0 +1,73 @@
+body {
+  font-family: Calibri, "Segoe UI", Arial, sans-serif;
+  color: #17212b;
+}
+
+.slides > article {
+  background: #ffffff;
+  color: #17212b;
+  border-top: 12px solid #123b65;
+  border-bottom: 12px solid #123b65;
+}
+
+h1, h2, h3 { color: #123b65; }
+h1 { font-size: 48px; }
+h2 { font-size: 40px; }
+p, li { font-size: 25px; line-height: 1.45; }
+
+.subtitle { color: #1d70b8; font-size: 34px; margin-top: 30px; }
+.title-note { color: #526173; font-size: 22px; line-height: 1.5; margin-top: 90px; }
+
+.three-cards, .closing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin: 38px 0;
+}
+
+.pitch-card, .closing-grid > div {
+  min-height: 130px;
+  padding: 24px;
+  background: #eaf3fb;
+  border: 1px solid #b7d3ea;
+  border-top: 6px solid #1d70b8;
+  border-radius: 12px;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.slides > article .columns-2 > div:first-child { width: 39%; }
+.slides > article .columns-2 > div:last-child { width: 57%; }
+.columns-2 h3 { font-size: 27px; margin-top: 12px; }
+.columns-2 li { font-size: 20px; line-height: 1.3; }
+.columns-2 p { margin: 0; }
+.chart-note { margin-top: 8px; color: #526173; font-size: 18px; line-height: 1.35; }
+
+.closing-grid > div { font-size: 21px; }
+.final-note { margin-top: 42px; padding: 17px 22px; color: #ffffff; background: #123b65; border-radius: 10px; font-size: 22px; }
+
+pre { font-size: 14px; line-height: 1.18; }
+
+/* Visible navigation controls added to the presenter's built-in click areas. */
+.slide-area {
+  width: 58px !important;
+  height: 58px !important;
+  top: auto !important;
+  bottom: 20px !important;
+  margin-top: 0 !important;
+  border: 1px solid rgba(18, 59, 101, 0.3);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 3px 12px rgba(18, 59, 101, 0.2);
+  color: #123b65;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+#prev-slide-area { left: 40px !important; right: auto !important; }
+#next-slide-area { right: 40px !important; left: auto !important; }
+#prev-slide-area::after, #next-slide-area::after { font-family: "Segoe UI Symbol", sans-serif; font-size: 40px; font-weight: 700; line-height: 1; margin-top: -4px; }
+#prev-slide-area::after { content: "\2039"; }
+#next-slide-area::after { content: "\203A"; }
+.slide-area:hover { background: #123b65; color: white; }
