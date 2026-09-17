@@ -13,11 +13,12 @@ This repository contains the Shiny application and reproducible pitch for the Jo
 * [Data preparation and model comparison](global.R)
 * [Rubric compliance review](RUBRIC_COMPLIANCE.md)
 
-## Published presentation
+## Published project
 
+* [Live Shiny application](https://sonjasahebzad.shinyapps.io/urban-air-quality-explorer/)
 * [GitHub Pages presentation](https://sonja242.github.io/developing-data-products-shiny-course-project/)
 
-The public Shiny application and RPubs presentation links will be added after their account connections are completed.
+The RPubs presentation link will be added after publication.
 
 ## Application features
 
@@ -67,4 +68,3 @@ This project was created for the Johns Hopkins University / Coursera Data Scienc
 Assignment: **Course Project: Shiny Application and Reproducible Pitch**.
 
 Created on September 17, 2026.
-
