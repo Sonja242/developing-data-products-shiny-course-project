@@ -26,25 +26,28 @@ The app turns the built-in R <code>airquality</code> data into a guided, interac
 How the user interacts
 ========================================================
 
-### Explore tab
-
-* Select one or more summer months
-* Adjust temperature and wind ranges
-* Choose what marker size represents
-* Hover, zoom, and reset the chart
-
-### Predict tab
-
-* Set temperature, wind, and month
-* Receive an immediate ozone estimate
-* Read the 95% prediction interval
-* Compare candidate models and their validation error
-
-***
-
-![plot of chunk unnamed-chunk-1](Urban_Air_Quality_Pitch-figure/unnamed-chunk-1-1.png)
-
-<div class="chart-note">The live Shiny version adds filters, hover details, zoom, summaries, and model-based predictions.</div>
+<div class="interaction-layout">
+  <div class="interaction-copy">
+    <h3>Explore tab</h3>
+    <ul>
+      <li>Select one or more summer months</li>
+      <li>Adjust temperature and wind ranges</li>
+      <li>Choose what marker size represents</li>
+      <li>Hover, zoom, and reset the chart</li>
+    </ul>
+    <h3>Predict tab</h3>
+    <ul>
+      <li>Set temperature, wind, and month</li>
+      <li>Receive an immediate ozone estimate</li>
+      <li>Read the 95% prediction interval</li>
+      <li>Compare candidate models and their validation error</li>
+    </ul>
+    <p class="chart-note">Every input produces a visible reactive result. The live Shiny version adds filters, hover details, zoom, summaries, and model-based predictions.</p>
+  </div>
+  <div class="interaction-chart">
+    <img src="Urban_Air_Quality_Pitch-figure/unnamed-chunk-1-1.png" alt="Scatter plot of daily ozone concentration against temperature, coloured by month">
+  </div>
+</div>
 
 Reproducible model comparison
 ========================================================
@@ -94,3 +97,4 @@ Why it is a useful data product
 The patterns are descriptive associations from New York in one summer in 1973. The predictions are educational and are not current health guidance.
 
 <div class="final-note">Created on September 17, 2026 by Sonja Sahebzad</div>
+

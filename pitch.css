@@ -71,3 +71,33 @@ pre { font-size: 14px; line-height: 1.18; }
 #prev-slide-area::after { content: "\2039"; }
 #next-slide-area::after { content: "\203A"; }
 .slide-area:hover { background: #123b65; color: white; }
+.interaction-layout {
+  display: grid;
+  grid-template-columns: 42% 58%;
+  gap: 26px;
+  align-items: start;
+}
+.interaction-copy h3 {
+  font-size: 27px;
+  margin: 6px 0 6px;
+}
+.interaction-copy ul {
+  margin: 0 0 10px 22px;
+  padding: 0;
+}
+.interaction-copy li {
+  font-size: 18px;
+  line-height: 1.22;
+  margin-bottom: 3px;
+}
+.interaction-copy .chart-note {
+  margin-top: 10px;
+  font-size: 17px;
+  line-height: 1.3;
+}
+.interaction-chart img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 18px;
+}
