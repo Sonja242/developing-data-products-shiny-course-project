@@ -73,6 +73,8 @@ html, body {
 .hero-copy { max-width: 780px; }
 .hero-copy h1, .section-intro h1 { margin: 6px 0 8px; font-size: 38px; font-weight: 700; }
 .hero-copy p { margin: 0; font-size: 20px; line-height: 1.45; color: #eef6fc; }
+.hero-meta { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 16px; padding-top: 14px; border-top: 1px solid rgba(255,255,255,0.3); color: #ffffff; font-size: 16px; }
+.hero-meta span { display: inline-block; }
 .eyebrow { font-size: 13px; font-weight: 700; letter-spacing: 0.12em; }
 .hero-note { max-width: 265px; padding: 17px 19px; background: rgba(255,255,255,0.13); border: 1px solid rgba(255,255,255,0.3); border-radius: 12px; }
 .hero-note strong, .hero-note span { display: block; }

@@ -18,6 +18,11 @@ ui <- navbarPage(
           tags$h1("Explore how weather relates to ozone"),
           tags$p(
             "Filter daily observations and inspect patterns in temperature, wind, season, and ozone concentration."
+          ),
+          tags$div(
+            class = "hero-meta",
+            tags$span(tags$strong("Author: "), "Sonja Sahebzad"),
+            tags$span("Created on September 17, 2026")
           )
         ),
         div(
