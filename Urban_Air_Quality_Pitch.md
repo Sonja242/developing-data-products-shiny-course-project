@@ -1,6 +1,6 @@
 Urban Air Quality Explorer
 ========================================================
-author: "Author: Sonja Sahebzad"
+author: Author: Sonja Sahebzad
 date: September 17, 2026
 css: pitch.css
 width: 1440
@@ -97,4 +97,5 @@ Why it is a useful data product
 The patterns are descriptive associations from New York in one summer in 1973. The predictions are educational and are not current health guidance.
 
 <div class="final-note">Created on September 17, 2026 by Sonja Sahebzad</div>
+
 
