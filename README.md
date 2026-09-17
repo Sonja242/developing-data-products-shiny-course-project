@@ -17,7 +17,7 @@ This repository contains the Shiny application and reproducible pitch for the Jo
 
 * [Live Shiny application](https://sonjasahebzad.shinyapps.io/urban-air-quality-explorer/)
 * [GitHub Pages presentation](https://sonja242.github.io/developing-data-products-shiny-course-project/)
-* [RPubs presentation](https://rpubs.com/Sonja_Janssen/urban_air_quality_shiny_pitch)
+* [RPubs presentation](https://rpubs.com/Sonja_Janssen/1459845)
 
 ## Application features
 
